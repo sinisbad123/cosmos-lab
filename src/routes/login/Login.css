@@ -1,0 +1,199 @@
+/**
+ * React Starter Kit (https://www.reactstarterkit.com/)
+ *
+ * Copyright © 2014-present Kriasoft, LLC. All rights reserved.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.txt file in the root directory of this source tree.
+ */
+@import '../../components/variables.css';
+
+@font-face {
+  font-family: 'Gotham Book';
+  src:
+    local('Gotham Book'),
+    local('Gotham-Book'),
+    url('/fonts/Gotham-Book.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Gotham Medium';
+  src:
+    local('Gotham Medium'),
+    local('Gotham-Medium'),
+    url('/fonts/Gotham-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Gotham Bold';
+  src:
+    local('Gotham Bold'),
+    local('Gotham-Bold'),
+    url('/fonts/Gotham-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Gotham Light';
+  src:
+    local('Gotham Light'),
+    local('Gotham-Light'),
+    url('/fonts/Gotham-Light.otf') format('opentype');
+}
+
+html,body {
+  height: 100%;
+}
+
+.fullHeight {
+  height: 100%;
+  max-height: 100%;
+}
+
+/* Left side panel */
+
+.leftPanel {
+  background-image: url(./img/loginBg-left.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-right: 0px;
+  height: 100%;
+  max-height: 100%;
+}
+
+.topMargin {
+  margin-top: 125px;
+}
+
+.actionHeader {
+  margin-bottom: 30px;
+}
+
+.actionSelected {
+  font-family: 'Gotham Medium';
+  color: #fff;
+  border: 3px solid #14b2a5;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+.actionSeparator {
+  font-family: 'Gotham Medium';
+  color: #fff;
+
+}
+
+.actionUnselected {
+  font-family: 'Gotham Medium';
+  color: #859190;
+  cursor: pointer;
+}
+
+.subHeader {
+  font-family: 'Gotham Light';
+  color: #fff;
+}
+
+.inputLabel {
+  font-family: 'Gotham Medium';
+  color: #fff;
+  margin-top: 30px;
+}
+
+.loginInput {
+  background: transparent;
+  font-family: 'Gotham Book';
+  color: #fff;
+  outline: none;
+  border: 2px solid #859190;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+  max-width: 100%;
+}
+
+.loginInput::placeholder {
+  font-family: 'Gotham Book';
+  color: #859190;
+}
+
+.checkboxContainer {
+  margin-top: 25px;
+}
+
+.checkbox {
+  margin-right: 5px !important;
+}
+
+.termsSpan {
+  font-family: 'Gotham Book';
+  color: #fff;
+}
+
+.termsLink {
+  color: #14b2a5;
+}
+
+.termsLink:hover {
+  text-decoration: none;
+  color: #859190;
+}
+
+.validationContainer {
+  margin-top: 20px;
+}
+
+.validationMessage {
+  font-family: 'Gotham Medium';
+  color: rgb(21, 200, 186);
+}
+
+.signupButton {
+  margin-top: 15px;
+  font-family: 'Gotham Medium';
+  color: #000;
+  border: 10px solid #feff39;
+  border-left-width: 20px;
+  border-right-width: 20px;
+  background: #feff39;
+  border-radius: 50px;
+}
+
+/* Right side panel */
+.rightPanel {
+  background-image: url(./img/loginBg-right.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 0px;
+  height: 100%;
+  max-height: 100%;
+}
+
+.rightSubHeader {
+  font-family: 'Gotham Light';
+  color: #fff;
+  text-align: center;
+}
+
+.rightSubHeaderBold {
+  font-family: 'Gotham Medium';
+}
+
+.header {
+  font-family: 'Gotham Bold';
+  color: #fff;
+  text-align: center;
+}
+
+.paragraphContainer {
+  margin-top: 100px;
+}
+
+.rightParagraph {
+  font-family: 'Gotham Book';
+  color: #fff;
+  text-align: center;
+}

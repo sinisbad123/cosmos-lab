@@ -1,0 +1,202 @@
+/**
+ * React Starter Kit (https://www.reactstarterkit.com/)
+ *
+ * Copyright © 2014-present Kriasoft, LLC. All rights reserved.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.txt file in the root directory of this source tree.
+ */
+@import '../../../components/variables.css';
+
+@font-face {
+  font-family: 'Gotham Book';
+  src:
+    local('Gotham Book'),
+    local('Gotham-Book'),
+    url('/fonts/Gotham-Book.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Gotham Medium';
+  src:
+    local('Gotham Medium'),
+    local('Gotham-Medium'),
+    url('/fonts/Gotham-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Gotham Bold';
+  src:
+    local('Gotham Bold'),
+    local('Gotham-Bold'),
+    url('/fonts/Gotham-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Gotham Light';
+  src:
+    local('Gotham Light'),
+    local('Gotham-Light'),
+    url('/fonts/Gotham-Light.otf') format('opentype');
+}
+
+html {
+  background: #f0f0f0;
+}
+
+.issueContainer {
+  padding-bottom: 200px;
+}
+
+.container {
+  min-height: 100%;
+  padding-bottom: 60px;
+  background: #f0f0f0;
+}
+
+/* Issue details container */
+
+.issueDetailsContainer {
+  border: 1px solid #f0f0f0;
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
+  width: 100%;
+  margin-top: 20px;
+  padding-top: 15px;
+  background: #fff;
+}
+
+.issueTitle {
+  font-family: 'Gotham Medium';
+}
+
+.issueDescription {
+  font-family: 'Gotham Book';
+  white-space: pre-line;
+}
+
+/* Comments */
+
+.commentsContainer {
+  border: 1px solid #f0f0f0;
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
+  width: 100%;
+  margin-top: 20px;
+  padding-top: 15px;
+  background: #fff;
+}
+
+.commentContainer {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.commentAvatar {
+  width: 50px;;
+  height: 50px;;
+  margin-left: 10px;
+  border-radius: 100px;
+
+  background: #93c8ec;
+}
+
+.commentUser {
+  font-family: 'Gotham Book';
+  color: #004d66;
+}
+
+.commentUser:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #26cbac;
+}
+
+.commentDescription {
+  font-family: 'Gotham Light';
+  white-space: pre-line;
+}
+
+.replyLink {
+  font-family: 'Gotham Book';
+  color: #004d66;
+}
+
+.replyLink:hover {
+  color: #006383;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.replyBoxContainer {
+  margin-top: 30px;
+}
+
+.replyContainer {
+  margin-top: 20px;
+}
+
+.replyContent {
+  font-family: 'Gotham Light';
+  margin-top: 0px;
+  margin-bottom: 0px;
+  white-space: pre-line;
+}
+
+/* Comment Box  */
+
+.commentBoxContainer {
+  border: 1px solid #f0f0f0;
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
+  width: 100%;
+  min-height: 150px;
+  margin-top: 20px;
+  padding-top: 20px;
+  background: #fff;
+}
+
+.commentBox {
+  font-family: 'Gotham Light';
+  background: #eeeeee;
+  width: 80%;
+  min-height: 75px;
+  resize: vertical;
+}
+
+.commentBox:focus {
+  background: #fff;
+  outline: none;
+}
+
+.commentButton {
+  font-family: 'Gotham Medium';
+  color: #fff;
+  background: #26cbac;
+  border: none;
+  width: 100px;
+  height: 35px;
+}
+
+.cancelButton {
+  font-family: 'Gotham Medium';
+  font-size: 15px;
+  color: #fff;
+  background: #002937;
+  border: none;
+  width: 100px;
+  height: 35px;
+}
+
+/* Loading message */
+
+.loadingMessageContainer {
+  margin-top: 100px;
+}
+
+.loadingIcon {
+  width: 50px;
+  height: 50px;
+  margin-top: 15px;
+}
+
+.loadingMessage {
+  font-family: 'Gotham Medium';
+}

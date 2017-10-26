@@ -1,0 +1,75 @@
+@import '../../components/variables.css';
+ 
+@font-face {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('Gotham Book'),
+    local('Gotham-Book'),
+    url('/fonts/Gotham-Book.otf') format('opentype');
+}
+ 
+@font-face {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: bold;
+  src:
+    local('Gotham Medium'),
+    local('Gotham-Medium'),
+    url('/fonts/Gotham-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: bolder;
+  src:
+    local('Gotham Bold'),
+    local('Gotham-Bold'),
+    url('/fonts/Gotham-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 200;
+  src:
+    local('Gotham Light'),
+    local('Gotham-Light'),
+    url('/fonts/Gotham-Light.otf') format('opentype');
+}
+
+.container {
+  background: #002937;
+}
+
+.navItem {
+  float: left;
+  list-style: none;
+  margin-left: 35px;
+  margin-top: 30px;
+}
+
+.navLogo {
+  max-width: 15px;
+  max-height: 15px;
+  margin-right: 10px;
+}
+
+.navLink {
+  color: #fff;
+  font-family: 'Gotham Light', sans-serif;
+}
+
+.navLink:hover {
+  color: #26cbac;
+  text-decoration: none;
+  font-family: 'Gotham Light', sans-serif;
+}
+
+.logo {
+  margin-top: 20px;
+  margin-left: 75px;
+  margin-bottom: 15px;
+}

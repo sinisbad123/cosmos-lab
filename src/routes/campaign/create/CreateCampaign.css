@@ -1,0 +1,133 @@
+@import '../../../components/variables.css';
+ 
+@font-face {
+  font-family: 'Gotham Book';
+  src:
+    local('Gotham Book'),
+    local('Gotham-Book'),
+    url('/fonts/Gotham-Book.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Gotham Medium';
+  src:
+    local('Gotham Medium'),
+    local('Gotham-Medium'),
+    url('/fonts/Gotham-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Gotham Bold';
+  src:
+    local('Gotham Bold'),
+    local('Gotham-Bold'),
+    url('/fonts/Gotham-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Gotham Light';
+  src:
+    local('Gotham Light'),
+    local('Gotham-Light'),
+    url('/fonts/Gotham-Light.otf') format('opentype');
+}
+
+.container {
+  margin-top: 25px;
+  margin-bottom: 150px;
+}
+
+.createHeader {
+  font-family: 'Gotham Bold';
+  color: #004d66;
+}
+
+.inputFieldsContainer {
+  margin-top: 25px;
+}
+
+.inputLabel {
+  font-family: 'Gotham Medium';
+  color: #004d66;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+
+.campaignInput {
+  background: transparent;
+  font-family: 'Gotham Book';
+  outline: none;
+  border: 2px solid #DDDD;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+  max-width: 100%;
+}
+
+.campaignInput:focus {
+  border: 2px solid #DDDD;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+input[type=date]::-webkit-inner-spin-button, 
+input[type=date]::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0; 
+}
+
+input[type=date]::-webkit-calendar-picker-indicator{
+  opacity: 0;
+}
+
+input[type=date]::before {
+  content: "\f073";
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 20px;
+  text-rendering: auto;
+  position:absolute;
+  right: 15px;
+  top: 85%;
+  transform:translateY(-50%);
+}
+
+.inputDescription {
+  font-family: 'Gotham Light';
+  width: 100%;
+  height: 250px;
+  resize: none;
+  border: 2px solid #14b2a5;
+}
+
+.inputDescription:focus {
+  width: 100%;
+  height: 250px;
+  resize: none;
+  border: 2px solid #0d736a;
+  outline: none;
+}
+
+.validationMessage {
+  font-family: 'Gotham Medium';
+  color: #e74c3c;
+  margin-top: 20px;
+}
+
+.submitButton {
+  font-family: 'Gotham Medium';
+  color: #fff;
+  background: #26cbac;
+  border: none;
+  width: 100px;
+  height: 35px;
+}
+
+.submitButton:focus {
+  outline: none;
+}

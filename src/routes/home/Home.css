@@ -1,0 +1,80 @@
+/**
+ * React Starter Kit (https://www.reactstarterkit.com/)
+ *
+ * Copyright © 2014-present Kriasoft, LLC. All rights reserved.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.txt file in the root directory of this source tree.
+ */
+@import '../../components/variables.css';
+
+@font-face {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('Gotham Book'),
+    local('Gotham-Book'),
+    url('/fonts/Gotham-Book.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Gotham Medium';
+  font-style: normal;
+  font-weight: bold;
+  src:
+    local('Gotham Medium'),
+    local('Gotham-Medium'),
+    url('/fonts/Gotham-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Gotham Bold';
+  font-style: normal;
+  font-weight: bolder;
+  src:
+    local('Gotham Bold'),
+    local('Gotham-Bold'),
+    url('/fonts/Gotham-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Gotham Light';
+  font-style: lighter;
+  src:
+    local('Gotham Light'),
+    local('Gotham-Light'),
+    url('/fonts/Gotham-Light.otf') format('opentype');
+}
+
+.upperContainer {
+  background-image: url(./img/homeBg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.introductionSection {
+  margin-top: 100px;
+}
+
+.lightText {
+  color: #fff;
+  font-family: 'Gotham Light';
+  text-align: center;
+}
+
+.headerText {
+  color: #fff;
+  font-family: 'Gotham Light';
+  text-align: center;
+}
+
+.startButton {
+  margin-top: 30px;
+  font-family: 'Gotham Medium';
+  border: 15px solid #feff39;
+  border-left-width: 20px;
+  border-right-width: 20px;
+  background: #feff39;
+  border-radius: 50px;
+}

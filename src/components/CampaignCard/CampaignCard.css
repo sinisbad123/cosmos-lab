@@ -1,0 +1,229 @@
+/**
+ * React Starter Kit (https://www.reactstarterkit.com/)
+ *
+ * Copyright © 2014-present Kriasoft, LLC. All rights reserved.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.txt file in the root directory of this source tree.
+ */
+@import '../../components/variables.css';
+ 
+@font-face {
+  font-family: 'Gotham Book';
+  src:
+    local('Gotham Book'),
+    local('Gotham-Book'),
+    url('/fonts/Gotham-Book.otf') format('opentype');
+}
+ 
+@font-face {
+  font-family: 'Gotham Medium';
+  src:
+    local('Gotham Medium'),
+    local('Gotham-Medium'),
+    url('/fonts/Gotham-Medium.otf') format('opentype');
+}
+ 
+@font-face {
+  font-family: 'Gotham Bold';
+  src:
+    local('Gotham Bold'),
+    local('Gotham-Bold'),
+    url('/fonts/Gotham-Bold.otf') format('opentype');
+}
+ 
+@font-face {
+  font-family: 'Gotham Light';
+  src:
+    local('Gotham Light'),
+    local('Gotham-Light'),
+    url('/fonts/Gotham-Light.otf') format('opentype');
+}
+
+/* Campaign card */
+
+.campaignCard {
+  border: 1px solid #fff;
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background: #fff;
+}
+
+.cardAvatar {
+  width: 75px;;
+  height: 75px;;
+  margin-top: 20px;
+  margin-left: 10px;
+  border-radius: 100px;
+
+  background: #93c8ec;
+}
+
+.activityDescription {
+  font-family: 'Gotham Light';
+  color: #9a9a9a;
+  margin-top: 20px;
+}
+
+.activityLink {
+  font-family: 'Gotham Light';
+  color: #9a9a9a;
+}
+
+.activityLink:hover {
+  font-family: 'Gotham Light';
+  color: #26cbac;
+  text-decoration: none;
+}
+
+.activityDuration {
+  font-family: 'Gotham Light';
+  margin-top: 20px;
+  margin-right: 15px;
+}
+
+
+.campaignName {
+  font-family: 'Gotham Bold';
+  color: #000;
+}
+
+.campaignName:hover {
+  text-decoration: none;
+  color: #26cbac;
+  cursor: pointer;
+}
+
+progress[value] {
+  /* Reset the default appearance */
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+progress {
+  width: 97.5%;
+  height: 10px;
+}
+
+progress::-webkit-progress-bar {
+  background: #e6e6e6;
+  border-radius: 10px;
+}
+
+progress::-webkit-progress-value {
+  background: #26cbac;
+  border-radius: 10px;
+}
+
+progress::-moz-progress-bar {
+  background: #e6e6e6;
+  border-radius: 10px;
+}
+
+progress::-moz-progress-value {
+  background: #26cbac;
+  border-radius: 10px;
+}
+
+.campaignFunds {
+  font-family: 'Gotham Light';
+  color: #787777;
+}
+
+.cardActionsContainer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.campaignLikers {
+  font-family: 'Gotham Light';
+}
+
+.likedCampaign {
+  color: red;
+}
+
+.cardActionLink {
+  font-family: 'Gotham Light';
+  color: #000;
+  margin-right: 20px;
+}
+
+.cardActionLink:hover {
+  text-decoration: none;
+  color: #26cbac;
+}
+
+/* Comments */
+
+.commentsContainer {
+  margin-top: 20px;
+}
+
+.commentAvatar {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 100px;
+
+  background: #93c8ec;
+}
+
+.commentUser {
+  font-family: 'Gotham Book';
+  color: #004d66;
+}
+
+.commentUser:hover {
+  text-decoration: none;
+  color: #26cbac;
+}
+
+.commentText {
+  font-family: 'Gotham Light';
+  margin-top: 15px;
+}
+
+/* Comment box */
+
+.commentBoxContainer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.commentBox {
+  font-family: 'Gotham Light';
+  border: 1px solid #9a9a9a;
+  background: #eeeeee;
+  width: 100%;
+  height: 50px;
+  padding-left: 15px;
+  padding-top: 15px;
+  resize: none;
+}
+
+.commentBox:focus {
+  outline: none;
+  background: #fff;
+}
+
+.commentButtonContainer {
+  margin-top: 25px; 
+  margin-bottom: 25px;
+}
+
+.commentButton {
+  font-family: 'Gotham Medium';
+  color: #fff;
+  background: #26cbac;
+  border: none;
+  width: 150px;
+  height: 35px;
+}
+
+.commentButton:focus {
+  outline: none;
+}

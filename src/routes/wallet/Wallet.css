@@ -1,0 +1,179 @@
+/**
+ * React Starter Kit (https://www.reactstarterkit.com/)
+ *
+ * Copyright © 2014-present Kriasoft, LLC. All rights reserved.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.txt file in the root directory of this source tree.
+ */
+@import '../../components/variables.css';
+
+@font-face {
+  font-family: 'Gotham Book';
+  src:
+    local('Gotham Book'),
+    local('Gotham-Book'),
+    url('/fonts/Gotham-Book.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Gotham Medium';
+  src:
+    local('Gotham Medium'),
+    local('Gotham-Medium'),
+    url('/fonts/Gotham-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Gotham Bold';
+  src:
+    local('Gotham Bold'),
+    local('Gotham-Bold'),
+    url('/fonts/Gotham-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Gotham Light';
+  src:
+    local('Gotham Light'),
+    local('Gotham-Light'),
+    url('/fonts/Gotham-Light.otf') format('opentype');
+}
+
+/* Balance Panel */
+
+.balanceContainer {
+  background: #15515b;
+}
+
+.subHeader {
+  font-family: 'Gotham Book';
+
+  color: #fff;
+
+  margin-top: 50px;
+}
+
+.balanceHeader {
+  font-family: 'Gotham Bold';
+
+  color: #32d2b8;
+}
+
+.cashInLink {
+  font-family: 'Gotham Book';
+
+  color: #fff;
+}
+
+.cashInLink:hover {
+  color: #32d2b8;
+  text-decoration: none;
+}
+
+.cashInLink:focus {
+  color: #32d2b8;
+  text-decoration: none;
+  outline: none;
+}
+
+.divider {
+  border-color: #fff;
+}
+
+.moneyTypeContainer {
+  margin-top: 15px;
+}
+
+.moneyTypeIcon {
+  color: #fff;
+
+  font-size: 25px;
+}
+
+.moneyType {
+  font-family: 'Gotham Book';
+  color: #fff;
+}
+
+.moneyTypeSubHeader {
+  font-family: 'Gotham Book';
+  font-size: 12px;
+  color: #fff;
+}
+
+.moneyTypeBalance {
+  font-family: 'Gotham Medium';
+  color: #32d2b8;
+
+  margin-top: 15px;
+}
+
+/* Pot panel */
+.potContainer {
+  margin-top: 100px;
+}
+
+.progressBarContainer {
+  height: 200px;
+  width: 200px;
+}
+
+.potProgress {
+  font-family: 'Gotham Bold';
+}
+
+.potContent {
+  background: url('./img/wallet.png') no-repeat;
+  width: 65px;
+  height: 65px;
+
+  margin-top: 20px;
+}
+
+.potHeader {
+  font-family: 'Gotham Medium';
+}
+
+.potDescription {
+  font-family: 'Gotham Book';
+}
+
+/* Loading message */
+
+.loadingMessageContainer {
+  margin-top: 100px;
+}
+
+.loadingMessageText {
+  font-family: 'Gotham Bold';
+}
+
+/* Cash-in BTC Modal */
+
+.modalHeader {
+  font-family: 'Gotham Medium';
+}
+
+.modalBodyHeader {
+  font-family: 'Gotham Medium';
+}
+
+.modalReminders {
+  font-family: 'Gotham Bold';
+
+  margin-top: 10px;
+}
+
+.closeButton {
+  font-family: 'Gotham Medium';
+  color: #fff;
+
+  background: #002937;
+
+  border: none;
+
+  width: 150px;
+  height: 35px;
+  margin-top: 25px;
+}

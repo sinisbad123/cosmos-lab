@@ -1,0 +1,349 @@
+@import '../../components/variables.css';
+ 
+@font-face {
+  font-family: 'Gotham Book';
+  src:
+    local('Gotham Book'),
+    local('Gotham-Book'),
+    url('/fonts/Gotham-Book.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Gotham Medium';
+  src:
+    local('Gotham Medium'),
+    local('Gotham-Medium'),
+    url('/fonts/Gotham-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Gotham Bold';
+  src:
+    local('Gotham Bold'),
+    local('Gotham-Bold'),
+    url('/fonts/Gotham-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Gotham Light';
+  src:
+    local('Gotham Light'),
+    local('Gotham-Light'),
+    url('/fonts/Gotham-Light.otf') format('opentype');
+}
+
+.container {
+  margin-bottom: 250px;
+}
+
+/* Banner and basic info segment */
+
+.campaignBanner {
+  width: 100%;
+  height: 450px;
+  z-index: 0;
+  position: absolute;
+}
+
+.basicInfoContainer {
+  margin-top: 365px;
+  z-index: 1;
+  position: relative;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.basicInfoText {
+  font-family: 'Gotham Book';
+  color: #fff;
+}
+
+.basicInfoLink {
+  font-family: 'Gotham Light';
+  color: #fff;
+}
+
+.basicInfoLink:hover {
+  color: #26cbac;
+  text-decoration: none;
+}
+
+.basicInfoMargin {
+  margin-top: 35px;
+}
+
+/* Description segment */
+
+.descriptionContainer {
+  margin-top: 50px;
+}
+
+.descriptionHeader {
+  font-family: 'Gotham Medium';
+  color: #004d66;
+}
+
+.descriptionBody {
+  font-family: 'Gotham Book';
+  white-space: pre-line;
+}
+
+/* Stats and actions */
+
+.statsActionsContainer {
+  margin-top: 50px;
+}
+
+progress[value] {
+  /* Reset the default appearance */
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+progress {
+  width: 100%;
+  height: 10px;
+}
+
+progress::-webkit-progress-bar {
+  background: #e6e6e6;
+  border-radius: 10px;
+}
+
+progress::-webkit-progress-value {
+  background: #26cbac;
+  border-radius: 10px;
+}
+
+progress::-moz-progress-bar {
+  background: #e6e6e6;
+  border-radius: 10px;
+}
+
+progress::-moz-progress-value {
+  background: #26cbac;
+  border-radius: 10px;
+}
+
+/* Funding actions and other stats  */
+
+.fundButton {
+  font-family: 'Gotham Medium';
+  color: #fff;
+  background: #26cbac;
+  border: none;
+  width: 150px;
+  height: 35px;
+  margin-top: 25px;
+}
+
+.cancelButton {
+  font-family: 'Gotham Medium';
+  color: #fff;
+  background: #002937;
+  border: none;
+  width: 150px;
+  height: 35px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.statsSubheader {
+  font-family: 'Gotham Medium';
+}
+
+.fundedMessage {
+  font-family: 'Gotham Book';
+  margin-top: 15px;
+}
+
+.balanceLabel {
+  font-family: 'Gotham Book';
+  color: #004d66;
+}
+
+.balanceValue {
+  font-family: 'Gotham Medium';
+}
+
+.inputLabel {
+  font-family: 'Gotham Medium';
+  color: #004d66;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.fundInput {
+  background: transparent;
+  font-family: 'Gotham Book';
+  outline: none;
+  border: 2px solid #DDDD;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+  max-width: 100%;
+}
+
+.fundInput:focus {
+  border: 2px solid #DDDD;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.inputMargin {
+  margin-top: 20px;
+}
+
+/* Comments section  */
+
+.commentContainer {
+  margin-top: 50px;
+}
+
+.commentHeader {
+  font-family: 'Gotham Book';
+  color: #004d66;
+}
+
+.commentPanel {
+  border: 1px solid #fff;
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #fff;
+}
+
+.commentUser {
+  font-family: 'Gotham Book';
+  color: #004d66;
+}
+
+.commentUser:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #26cbac;
+}
+
+.commentMessage {
+  font-family: 'Gotham Light';
+  white-space: pre-line;
+}
+
+.commentActionsLink {
+  font-family: 'Gotham Medium';
+  color: #004d66;
+}
+
+.commentActionsLink:hover {
+  color: rgb(0, 126, 168);
+  text-decoration: none;
+}
+
+.commentMargin {
+  margin-top: 30px;
+}
+
+/* Loading message */
+
+.loadingMessageContainer {
+  margin-top: 100px;
+}
+
+.loadingIcon {
+  width: 50px;
+  height: 50px;
+  margin-top: 15px;
+}
+
+.loadingMessage {
+  font-family: 'Gotham Medium';
+}
+
+/* Comment box */
+
+.commentBoxContainer {
+  margin-top: 25px;
+}
+
+.commentBox {
+  font-family: 'Gotham Light';
+  border: 1px solid #9a9a9a;
+  background: #eeeeee;
+  width: 95%;
+  height: 50px;
+  padding-left: 15px;
+  padding-top: 15px;
+  resize: none;
+}
+
+.commentBox:focus {
+  background: #fff;
+  outline: none;
+}
+
+.commentAvatar {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 100px;
+  
+  background: #93c8ec;
+}
+
+.commentButtonContainer {
+  margin-top: 25px; 
+}
+
+.commentButton {
+  font-family: 'Gotham Medium';
+  color: #fff;
+  background: #26cbac;
+  border: none;
+  width: 150px;
+  height: 35px;
+}
+
+.childCommentButton {
+  font-family: 'Gotham Medium';
+  color: #fff;
+  background: #26cbac;
+  border: none;
+  width: 100px;
+  height: 30px;
+}
+
+.childCancelButton {
+  font-family: 'Gotham Medium';
+  font-size: 15px;
+  color: #fff;
+  background: #002937;
+  border: none;
+  width: 100px;
+  height: 30px;
+}
+
+.replyLink {
+  font-family: 'Gotham Light';
+  color: #004d66;
+}
+
+.replyLink:hover {
+  color: #006383;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Common styles */
+
+.textGreen {
+  color: #26cbac;
+}
+
+.hrMargin {
+  margin-top: 5px;
+}

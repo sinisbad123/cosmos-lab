@@ -1,0 +1,204 @@
+/**
+ * React Starter Kit (https://www.reactstarterkit.com/)
+ *
+ * Copyright © 2014-present Kriasoft, LLC. All rights reserved.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.txt file in the root directory of this source tree.
+ */
+@import '../../components/variables.css';
+
+@font-face {
+  font-family: 'Gotham Book';
+  src:
+    local('Gotham Book'),
+    local('Gotham-Book'),
+    url('/fonts/Gotham-Book.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Gotham Medium';
+  src:
+    local('Gotham Medium'),
+    local('Gotham-Medium'),
+    url('/fonts/Gotham-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Gotham Bold';
+  src:
+    local('Gotham Bold'),
+    local('Gotham-Bold'),
+    url('/fonts/Gotham-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Gotham Light';
+  src:
+    local('Gotham Light'),
+    local('Gotham-Light'),
+    url('/fonts/Gotham-Light.otf') format('opentype');
+}
+
+.container {
+  padding-bottom: 150px;
+  background: #f0f0f0;
+}
+
+/* Issue Form */
+
+.issueFormContainer {
+  border: 1px solid #f0f0f0;
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
+  width: 100%;
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #fff;
+}
+
+.issueFormTitle {
+  font-family: 'Gotham Book';
+}
+
+.inputLabel {
+  font-family: 'Gotham Medium';
+  color: #004d66;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+.campaignInput {
+  background: transparent;
+  font-family: 'Gotham Book';
+  outline: none;
+  border: 2px solid #14b2a5;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 50%;
+  max-width: 100%;
+}
+
+.campaignInput:focus {
+  border: 2px solid #0d736a;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.inputDescription {
+  font-family: 'Gotham Light';
+  width: 100%;
+  min-height: 100px;
+  max-height: 200px;
+  resize: none;
+  border: 2px solid #14b2a5;
+  background: #eeeeee;
+}
+
+.inputDescription:focus {
+  border: 2px solid #0d736a;
+  background: #fff;
+  outline: none;
+}
+
+.validationMessage {
+  font-family: 'Gotham Medium';
+  color: #e74c3c;
+  margin-top: 20px;
+}
+
+.submitButton {
+  font-family: 'Gotham Medium';
+  color: #fff;
+  background: #26cbac;
+  border: none;
+  width: 100px;
+  height: 35px;
+}
+
+.submitButton:focus {
+  outline: none;
+}
+
+/* Issue card */
+
+.issueCard {
+  border: 1px solid #f0f0f0;
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
+  width: 100%;
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #fff;
+}
+
+.actionButtonContainer {
+  margin-top: 5px;
+}
+
+.actionButton {
+  margin-bottom: 0px;
+}
+
+.actionButton:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.actionOverlay {
+  position: 'absolute';
+  background-color: '#EEE';
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ccc;
+  border-radius: 3;
+  margin-left: -5;
+  margin-top: 5;
+  padding: 10;
+}
+
+.issueTitleText {
+  margin-top: 0px;
+}
+
+.issueTitle {
+  font-family: 'Gotham Medium';
+  color: #000;
+}
+
+.issueTitle:hover {
+  color: #26cbac;
+  text-decoration: none;
+}
+
+.lastActivity {
+  font-family: 'Gotham Light';
+  color: gray;
+}
+
+.issueDescription {
+  font-family: 'Gotham Light';
+
+  white-space: pre-line;
+}
+
+/* Loading message */
+
+.loadingMessageContainer {
+  margin-top: 100px;
+}
+
+.loadingIcon {
+  width: 50px;
+  height: 50px;
+  margin-top: 15px;
+}
+
+.loadingMessage {
+  font-family: 'Gotham Medium';
+}
